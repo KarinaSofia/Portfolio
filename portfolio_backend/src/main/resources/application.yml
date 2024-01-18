@@ -1,0 +1,27 @@
+# Default Spring Profile
+server:
+  error:
+    include-message: always
+
+logging:
+  level:
+    root: INFO
+    com.example: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+---
+# for docker
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:example@mongodb:27017/portfolio
+      database: portfolio
+
+  profiles:
+    active: docker
+
+server:
+  port: 8080
+
