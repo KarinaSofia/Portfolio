@@ -32,9 +32,11 @@ const NavigationBar = () => {
                     </Link>
                 </li>
             </ul>
-            <button className="bg-blue-400 hover:bg-blue-450 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300">
-                Contact
-            </button>
+            <Link href="/contact" passHref>
+                <button className="bg-blue-400 hover:bg-blue-450 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300">
+                    Contact
+                </button>
+            </Link>
         </nav>
 
     );
