@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/pfImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/NavigationBar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/homeFooter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/navigationbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/homePage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/CORSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/HomeFooteer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/LeftProjectComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/ProjectComponent.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/RIghtProjectComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/homeFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/homeFooter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,30 +30,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2bTF6CnWTeTJCHKJE1M1lMIaj0O" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Karin\\OneDrive\\Documents\\Champlain Year 3\\Portfolio\\Portfolio\\portfolio_fe\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Karin\\OneDrive\\Documents\\Champlain Year 3\\Portfolio\\Portfolio\\portfolio_fe\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Karin\OneDrive\Documents\Champlain Year 3\Portfolio\Portfolio\portfolio_fe\public" />
@@ -67,11 +70,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706230986912</updated>
-      <workItem from="1706230989509" duration="13699000" />
+      <workItem from="1706230989509" duration="14315000" />
+      <workItem from="1706418594500" duration="94000" />
+      <workItem from="1706546829749" duration="114000" />
+      <workItem from="1706560078689" duration="87000" />
+      <workItem from="1706569529712" duration="133000" />
+      <workItem from="1706594343023" duration="8203000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

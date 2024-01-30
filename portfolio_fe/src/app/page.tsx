@@ -6,9 +6,9 @@ import HomeFooter from "@/app/components/homeFooter";
 
 export default function Home() {
     return (
-        <main>
+        <div className="flex flex-col h-screen">
             <Navigationbar />
-            <div className="container mx-auto flex justify-center items-center px-4">
+            <div className="flex-grow container mx-auto flex justify-center items-center px-4">
                 <div className={`${styles.contentContainer} flex justify-center items-center`}>
                     <div className={styles.profileImage}>
                         <Image src={pfImage} alt="Karina" layout="fill" objectFit="cover" />
@@ -20,6 +20,6 @@ export default function Home() {
                 </div>
             </div>
             <HomeFooter />
-        </main>
+        </div>
     );
 }
