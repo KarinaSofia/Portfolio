@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/contactPage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/masterCV.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/testimonies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/TechnologieContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/TestimonialComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/testimonies/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/navigationbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/navigationbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,8 @@
       <workItem from="1706546829749" duration="114000" />
       <workItem from="1706560078689" duration="87000" />
       <workItem from="1706569529712" duration="133000" />
-      <workItem from="1706594343023" duration="9430000" />
+      <workItem from="1706594343023" duration="10611000" />
+      <workItem from="1707201012737" duration="8325000" />
     </task>
     <servers />
   </component>

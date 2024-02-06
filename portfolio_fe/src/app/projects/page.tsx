@@ -15,14 +15,25 @@ const home = () => {
     return (
         <div className="flex flex-col min-h-screen">
             <NavigationBar />
-            <div className="flex-grow flex justify-center items-center">
-                <div className="text-center px-4 md:px-8 lg:px-16">
-                    <h1 className="mb-20">Projects</h1>
-                    <p className="mb-20">
+            {/* Header Section */}
+            <header className="flex justify-center mt-16">
+                <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
+                    <h1 className="text-center text-[80px] leading-tight italic font-bebas-neue text-stroke-black">Projects</h1>
+                    <p className="text-center text-sm text-gray-700 font-inter">
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         Welcome to the Project Section of my Portfolio! Here, you'll find a curated collection of my work, showcasing a range of skills and interests. For each project, there's a direct link to its GitHub repository, offering a deeper dive into the code and processes behind my creations. Enjoy exploring!
                     </p>
+                </div>
+            </header>
 
+            <div className="flex justify-center items-center gap-5 mx-10 my-10">
+                <hr className="w-1/3"/>
+                <p className="text-center font-light text-opacity-25 italic animate-pulse flex gap-2 font-inter">Projects<span
+                    className="hidden md:block">Section</span></p>
+                <hr className="w-1/3"/>
+            </div>
+
+            <div className="flex-grow flex justify-center items-center">
                     {/* Container for project components */}
                     <div className="flex flex-col items-center gap-20">
                         <LeftProjectComponent
@@ -60,7 +71,6 @@ const home = () => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

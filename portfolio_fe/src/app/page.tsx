@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import pfImage from '../../public/pfImage.jpg';
 import Navigationbar from "@/app/components/navigationbar";
 import HomeFooter from "@/app/components/homeFooter";
+import React from "react";
 
 export default function Home() {
     return (
@@ -16,10 +17,16 @@ export default function Home() {
                     <div className="w-1/2 p-4 my-6 justify-center">
                         <h1>Karina Evangelista</h1>
                         <h2 className={`${styles.subtitle} my-4`}>Hello~ I’m <span className={styles.highlight}>Karina</span>, I’m a computer science student studying at Champlain College</h2>
+                        <a href="/masterCV.pdf" download="masterCV.pdf">
+                            <button className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 w-40 rounded hover:-translate-y-1 transition-transform duration-300">
+                                Download CV
+                            </button>
+                        </a>
+
                     </div>
+
                 </div>
             </div>
-            <HomeFooter />
         </div>
     );
 }
