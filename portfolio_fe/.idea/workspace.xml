@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/businesslayer/TestimoniesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/businesslayer/TestimoniesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/datalayer/Testimonies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/templates/testimonial-email-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_backend/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/testimonies/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/testimonies/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,7 @@
       <workItem from="1706594343023" duration="10611000" />
       <workItem from="1707201012737" duration="9890000" />
       <workItem from="1707605046932" duration="545000" />
-      <workItem from="1707764623094" duration="2953000" />
+      <workItem from="1707764623094" duration="3540000" />
     </task>
     <servers />
   </component>
