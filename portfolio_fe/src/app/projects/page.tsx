@@ -1,9 +1,8 @@
 import React from "react";
 import NavigationBar from "@/components/navigationbar";
 import LeftProjectComponent from "@/components/LeftProjectComponent";
-// @ts-ignore
-import RightProjectComponent from "@/components/RightProjectComponent";
 import CORSO from '../../../public/CORSO.png';
+import RightProjectComponent from "@/components/RIghtProjectComponent";
 
 const home = () => {
     const exampleImageUrls = [CORSO];

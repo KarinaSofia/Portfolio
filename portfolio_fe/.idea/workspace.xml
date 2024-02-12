@@ -6,21 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/HomeFooteer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeFooteer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/LeftProjectComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftProjectComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/NavigationBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ProjectComponent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectComponent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/RIghtProjectComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RIghtProjectComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TechnologieContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TechnologieContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/TestimonialComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/homeFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homeFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/navigationbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/testimonies/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/testimonies/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Karin\OneDrive\Documents\Champlain Year 3\Portfolio\Portfolio\portfolio_fe\src" />
       <recent name="C:\Users\Karin\OneDrive\Documents\Champlain Year 3\Portfolio\Portfolio\portfolio_fe\public" />
       <recent name="C:\Users\Karin\OneDrive\Documents\Champlain Year 3\Portfolio\Portfolio\portfolio_fe\src\app" />
       <recent name="C:\Users\Karin\OneDrive\Documents\Champlain Year 3\Portfolio\Portfolio\portfolio_fe\src\app\components" />
@@ -81,7 +70,7 @@
       <workItem from="1706594343023" duration="10611000" />
       <workItem from="1707201012737" duration="9890000" />
       <workItem from="1707605046932" duration="545000" />
-      <workItem from="1707764623094" duration="2684000" />
+      <workItem from="1707764623094" duration="2953000" />
     </task>
     <servers />
   </component>

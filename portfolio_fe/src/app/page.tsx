@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import styles from './Home.module.css';
 import pfImage from '../../public/pfImage.jpg';
-import Navigationbar from "@/components/navigationbar";
 import React from "react";
+import NavigationBar from "@/components/navigationbar";
 
 export default function Home() {
     return (
         <div className="flex flex-col h-screen">
-            <Navigationbar />
+            <NavigationBar />
             <div className="flex-grow container mx-auto flex justify-center items-center px-4">
                 <div className={`${styles.contentContainer} flex justify-center items-center`}>
                     <div className={styles.profileImage}>

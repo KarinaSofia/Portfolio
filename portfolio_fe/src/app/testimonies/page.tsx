@@ -2,9 +2,7 @@ import React from "react";
 import NavigationBar from "@/components/navigationbar";
 import Image from "next/image";
 import img from "../../../public/testimonies.jpg";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import TestimonialComponent from "@/components/TestimonialComponent";
 
 // Responsive breakpoints for the carousel
 const responsive = {
