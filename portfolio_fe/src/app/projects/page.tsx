@@ -1,8 +1,8 @@
 import React from "react";
-import NavigationBar from "@/app/components/navigationbar";
-import LeftProjectComponent from "@/app/components/LeftProjectComponent";
+import NavigationBar from "@/components/navigationbar";
+import LeftProjectComponent from "@/components/LeftProjectComponent";
 // @ts-ignore
-import RightProjectComponent from "@/app/components/RightProjectComponent";
+import RightProjectComponent from "@/components/RightProjectComponent";
 import CORSO from '../../../public/CORSO.png';
 
 const home = () => {

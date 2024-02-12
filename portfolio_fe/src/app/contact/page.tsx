@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationBar from "@/app/components/navigationbar";
+import NavigationBar from "@/components/navigationbar";
 import Image from 'next/image';
 import img from '../../../public/contactPage.jpg';
 

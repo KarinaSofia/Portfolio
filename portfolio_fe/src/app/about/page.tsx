@@ -1,6 +1,6 @@
 import React from 'react';
-import NavigationBar from "@/app/components/navigationbar";
-import TechnologieContainer from "@/app/components/TechnologieContainer";
+import NavigationBar from "@/components/navigationbar";
+import TechnologieContainer from "@/components/TechnologieContainer";
 
 const Home = () => {
     const frontEndTechnologies = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue.js", "Angular"].join(", ");

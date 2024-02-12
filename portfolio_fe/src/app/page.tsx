@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './Home.module.css';
 import pfImage from '../../public/pfImage.jpg';
-import Navigationbar from "@/app/components/navigationbar";
+import Navigationbar from "@/components/navigationbar";
 import React from "react";
 
 export default function Home() {
