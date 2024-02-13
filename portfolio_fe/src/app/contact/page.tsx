@@ -13,11 +13,15 @@ const Home = () => {
         body: '',
     });
 
+    // State to manage the visibility of the success message
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+
     // Handle form data change
     const handleChange = (e: { target: { name: any; value: any; }; }) => {
+        const { name, value } = e.target;
         setFormData({
             ...formData,
-            [e.target.name]: e.target.value,
+            [name]: value,
         });
     };
 
@@ -26,12 +30,12 @@ const Home = () => {
         e.preventDefault(); // Prevent default form submission behavior
 
         try {
-            const response = await axios.post('https://portfolio-ten-rose-31.vercel.app/send-email', formData); // Adjust the URL as needed
-            console.log(response.data);
-            // Handle success (e.g., showing a success message)
+            await axios.post('https://spring-boot-nn3wy.ondigitalocean.app/send-email', formData); // Adjust the URL as needed
+            setShowSuccessMessage(true); // Show success message
+            setTimeout(() => setShowSuccessMessage(false), 3000); // Hide after 3 seconds
         } catch (error) {
             console.error(error);
-            // Handle error (e.g., showing an error message)
+            // Optionally, handle error (e.g., showing an error message)
         }
     };
 
@@ -49,41 +53,19 @@ const Home = () => {
                         Or you can contact me directly by using the following form!
                     </p>
                     <form className="space-y-4" onSubmit={handleSubmit}>
-                        <div>
-                            <input
-                                name="fullName"
-                                placeholder="Your Name"
-                                className="w-full p-2 border rounded-lg"
-                                required
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div>
-                            <input
-                                type="email"
-                                name="email"
-                                placeholder="Your Email"
-                                className="w-full p-2 border rounded-lg"
-                                required
-                                onChange={handleChange}
-                            />
-                        </div>
-                        <div>
-                            <textarea
-                                name="body"
-                                placeholder="Your Message"
-                                className="w-full p-2 border rounded-lg"
-                                required
-                                onChange={handleChange}
-                            ></textarea>
-                        </div>
+                        {/* Form inputs */}
                         <button
                             type="submit"
-                            className="bg-blue-400 hover:bg-blue-450 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300"
+                            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300"
                         >
                             Submit
                         </button>
                     </form>
+                    {showSuccessMessage && (
+                        <div className="mt-4 p-2 bg-green-100 text-green-700 rounded-lg">
+                            Success! Your message has been sent.
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
