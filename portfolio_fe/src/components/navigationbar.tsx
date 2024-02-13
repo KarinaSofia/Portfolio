@@ -26,11 +26,13 @@ const NavigationBar = () => {
                         <span className={styles.navLink}>Projects</span>
                     </Link>
                 </li>
+                {/*
                 <li className={`${styles.navItem} hover:-translate-y-1 transition-transform duration-300`}>
                     <Link href="/testimonies">
                         <span className={styles.navLink}>Testimonies</span>
                     </Link>
                 </li>
+                */}
             </ul>
             <Link href="/contact" passHref>
                 <button className="bg-blue-400 hover:bg-blue-450 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300">
