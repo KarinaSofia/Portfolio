@@ -6,8 +6,8 @@ import RightProjectComponent from "@/components/RIghtProjectComponent";
 
 const home = () => {
     const exampleImageUrls = [CORSO];
-    const exampleDescription = "This is a brief description of the project. Here you can highlight key features or the main objective of the project.";
-    const exampleLinkUrl = "#";
+    const exampleDescription = "";
+    const exampleLinkUrl = "https://github.com/DylanBrass/Corso-Website";
     const exampleLinkText = "View Project";
     const exampleTitle = "CORSO";
 
@@ -51,22 +51,7 @@ const home = () => {
                             linkUrl={exampleLinkUrl}
                             linkText={exampleLinkText}
                         />
-                        <LeftProjectComponent
-                            // @ts-ignore
-                            imageUrls={exampleImageUrls}
-                            title={exampleTitle}
-                            description={exampleDescription}
-                            linkUrl={exampleLinkUrl}
-                            linkText={exampleLinkText}
-                        />
-                        <RightProjectComponent
-                            // @ts-ignore
-                            imageUrls={exampleImageUrls}
-                            title={exampleTitle}
-                            description={exampleDescription}
-                            linkUrl={exampleLinkUrl}
-                            linkText={exampleLinkText}
-                        />
+
                     </div>
                 </div>
             </div>

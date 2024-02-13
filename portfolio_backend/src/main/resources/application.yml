@@ -16,7 +16,7 @@ logging:
 spring:
   data:
     mongodb:
-      uri: mongodb://root:example@mongodb:27017/portfolio
+      uri: mongodb+srv://karinaevanglista:AQcJMpja7oKGHkmy@portfoliodb.vjiawhu.mongodb.net/?retryWrites=true&w=majority
       database: portfolio
 
   profiles:
