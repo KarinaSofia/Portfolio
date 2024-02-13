@@ -4,6 +4,7 @@ import TechnologieContainer from "@/components/TechnologieContainer";
 import Characteristics from "@/components/Characteristics";
 import Hobbies from "@/components/Hobbies";
 import ExperiencePage from "@/components/WorkExperience";
+import Future from "@/components/Future";
 
 const Home = () => {
     const frontEndTechnologies = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue.js", "Angular"].join(", ");
@@ -86,6 +87,7 @@ const Home = () => {
                     className="hidden md:block">Section</span></p>
                 <hr className="w-1/3"/>
             </div>
+            <Future/>
 
         </div>
     );
