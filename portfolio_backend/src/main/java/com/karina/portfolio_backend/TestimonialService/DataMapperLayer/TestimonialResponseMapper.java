@@ -1,10 +1,11 @@
 package com.karina.portfolio_backend.TestimonialService.DataMapperLayer;
 
+import com.karina.portfolio_backend.TestimonialService.presentationlayer.TestimonialResponseModel;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
 import com.karina.portfolio_backend.TestimonialService.datalayer.Testimonial;
-import com.example.portfolio.Testimonials.presentationlayer.TestimonialResponseModel;
+
 
 @Mapper(componentModel = "spring")
 public interface TestimonialResponseMapper {

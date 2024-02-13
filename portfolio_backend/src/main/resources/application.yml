@@ -16,8 +16,8 @@ logging:
 spring:
   data:
     mongodb:
-      uri: mongodb://root:example@mongodb:27017/portfolio
-      database: portfolio
+      uri: mongodb://root:example@mongodb:27017/testimonies
+      database: testimonies
 
   profiles:
     active: docker

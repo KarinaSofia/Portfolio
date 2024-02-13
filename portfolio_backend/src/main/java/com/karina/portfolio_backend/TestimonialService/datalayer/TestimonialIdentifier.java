@@ -1,4 +1,4 @@
-package com.example.portfolio.Testimonials.datalayer;
+package com.karina.portfolio_backend.TestimonialService.datalayer;
 
 import jakarta.persistence.Embeddable;
 import lombok.Getter;

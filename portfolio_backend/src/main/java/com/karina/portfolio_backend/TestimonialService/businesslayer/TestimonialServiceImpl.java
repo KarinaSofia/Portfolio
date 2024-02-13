@@ -1,7 +1,7 @@
 package com.karina.portfolio_backend.TestimonialService.businesslayer;
 
 
-import com.example.portfolio.Testimonials.presentationlayer.TestimonialResponseModel;
+import com.karina.portfolio_backend.TestimonialService.presentationlayer.TestimonialResponseModel;
 import com.karina.portfolio_backend.TestimonialService.DataMapperLayer.TestimonialRequestMapper;
 import com.karina.portfolio_backend.TestimonialService.DataMapperLayer.TestimonialResponseMapper;
 import com.karina.portfolio_backend.TestimonialService.datalayer.Testimonial;
@@ -19,8 +19,6 @@ import java.util.Random;
 @Service
 public class TestimonialServiceImpl implements TestimonialService{
     private final TestimonialsRepository testimonialsRepository;
-
-    private final TestimonialRequestMapper testimonialRequestMapper;
 
     private final TestimonialResponseMapper testimonialResponseMapper;
 

@@ -1,4 +1,4 @@
-package com.example.portfolio.Testimonials.datalayer;
+package com.karina.portfolio_backend.TestimonialService.datalayer;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;

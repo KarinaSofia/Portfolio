@@ -1,12 +1,9 @@
 package com.karina.portfolio_backend.TestimonialService.datalayer;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import com.example.portfolio.Testimonials.datalayer.TestimonialIdentifier;
 
 @Data
 @Document("testimonials")

@@ -1,4 +1,4 @@
-package com.example.portfolio.Testimonials.presentationlayer;
+package com.karina.portfolio_backend.TestimonialService.presentationlayer;
 
 import lombok.*;
 
