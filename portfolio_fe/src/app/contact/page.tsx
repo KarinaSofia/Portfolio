@@ -53,7 +53,34 @@ const Home = () => {
                         Or you can contact me directly by using the following form!
                     </p>
                     <form className="space-y-4" onSubmit={handleSubmit}>
-                        {/* Form inputs */}
+                            <div>
+                                <input
+                                    name="fullName"
+                                    placeholder="Your Name"
+                                    className="w-full p-2 border rounded-lg"
+                                    required
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Your Email"
+                                    className="w-full p-2 border rounded-lg"
+                                    required
+                                    onChange={handleChange}
+                                />
+                            </div>
+                            <div>
+                            <textarea
+                                name="body"
+                                placeholder="Your Message"
+                                className="w-full p-2 border rounded-lg"
+                                required
+                                onChange={handleChange}
+                            ></textarea>
+                            </div>
                         <button
                             type="submit"
                             className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300"
