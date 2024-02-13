@@ -8,19 +8,19 @@ services:
       - "8080:8080"
     environment:
       - SPRING_PROFILES_ACTIVE=docker
-    depends_on:
-      - mongodb
+#    depends_on:
+#      - mongodb
+#
+#  mongodb:
+#    image: mongo:latest
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: root
+#      MONGO_INITDB_ROOT_PASSWORD: example
+#    ports:
+#      - "27017:27017"
+#    volumes:
+#      - mongodb_data:/data/db
 
-  mongodb:
-    image: mongo:latest
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongodb_data:/data/db
-
-volumes:
-  mongodb_data:
+#volumes:
+#  mongodb_data:
 
