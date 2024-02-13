@@ -3,9 +3,11 @@ package com.karina.portfolio_backend.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.mail.MessagingException;
+
 @RestController
 @RequestMapping("/email")
-@CrossOrigin(origins = {"http://localhost:3000", "https://portfolio-5y9harmty-youssef-chahbounes-projects.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class EmailController {
     private final EmailService emailService;
 
@@ -15,9 +17,10 @@ public class EmailController {
     }
 
     @PostMapping("/send-email")
-    public String sendEmail(@RequestBody EmailRequest emailRequest) {
+    public String sendEmail(@RequestBody EmailRequest emailRequest) throws MessagingException {
         String customerFullName = emailRequest.getFullName();
-        emailService.sendEmail("Karinaevang@hotmail.com", emailRequest.getFullName(),emailRequest.getEmail(), customerFullName + " has sent you a message", emailRequest.getBody());
+
+        emailService.sendEmail("Karinaevang@hotmail.com", emailRequest.getFullName(),"Text");
         return "Email sent successfully!";
     }
 
