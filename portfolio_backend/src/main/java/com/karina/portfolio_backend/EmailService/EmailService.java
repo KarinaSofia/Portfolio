@@ -75,6 +75,18 @@ public class EmailService {
         }
     }
 
+    public void sendEmailToKarina(EmailRequest emailRequest) throws javax.mail.MessagingException {
+        String recipient = "Karinaevang@hotmail.com";
+        String subject = "Portfolio Email";
+
+        int status = sendEmail(recipient, subject, "sendEmailToKarina", Map.of("fullName", emailRequest.getFullName(), "email", emailRequest.getEmail(), "body", emailRequest.getBody()));
+        if (status == HttpStatus.SC_OK) {
+            log.info("Email sent to Karina");
+        } else {
+            log.error("Email not sent to Karina");
+        }
+    }
+
     public int sendEmail(String recipient, String subject, String template, Map<String, String> parameters) throws javax.mail.MessagingException {
         try {
             log.info("Sending email to {}", recipient);

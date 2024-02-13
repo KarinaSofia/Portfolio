@@ -1,9 +1,40 @@
-import React from "react";
+'use client';
+import React, { useState } from "react";
 import NavigationBar from "@/components/navigationbar";
 import Image from 'next/image';
 import img from '../../../public/contactPage.jpg';
+import axios from 'axios';
 
 const Home = () => {
+    // State to store form data
+    const [formData, setFormData] = useState({
+        fullName: '',
+        email: '',
+        body: '',
+    });
+
+    // Handle form data change
+    const handleChange = (e: { target: { name: any; value: any; }; }) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value,
+        });
+    };
+
+    // Handle form submission
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
+        e.preventDefault(); // Prevent default form submission behavior
+
+        try {
+            const response = await axios.post('/send-email', formData); // Adjust the URL as needed
+            console.log(response.data);
+            // Handle success (e.g., showing a success message)
+        } catch (error) {
+            console.error(error);
+            // Handle error (e.g., showing an error message)
+        }
+    };
+
     return (
         <div className="flex flex-col min-h-screen">
             <NavigationBar />
@@ -17,27 +48,33 @@ const Home = () => {
                     <p className="mb-8">
                         Or you can contact me directly by using the following form!
                     </p>
-                    <form className="space-y-4">
+                    <form className="space-y-4" onSubmit={handleSubmit}>
                         <div>
                             <input
+                                name="fullName"
                                 placeholder="Your Name"
                                 className="w-full p-2 border rounded-lg"
                                 required
+                                onChange={handleChange}
                             />
                         </div>
                         <div>
                             <input
                                 type="email"
+                                name="email"
                                 placeholder="Your Email"
                                 className="w-full p-2 border rounded-lg"
                                 required
+                                onChange={handleChange}
                             />
                         </div>
                         <div>
                             <textarea
+                                name="body"
                                 placeholder="Your Message"
                                 className="w-full p-2 border rounded-lg"
                                 required
+                                onChange={handleChange}
                             ></textarea>
                         </div>
                         <button
@@ -50,7 +87,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Home;

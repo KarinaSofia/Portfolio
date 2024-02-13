@@ -17,11 +17,8 @@ public class EmailController {
     }
 
     @PostMapping("/send-email")
-    public String sendEmail(@RequestBody EmailRequest emailRequest) throws MessagingException {
-        String customerFullName = emailRequest.getFullName();
-
-        emailService.sendEmail("Karinaevang@hotmail.com", emailRequest.getFullName(),"Text");
-        return "Email sent successfully!";
+    public void sendEmail(@RequestBody EmailRequest emailRequest) throws MessagingException {
+        emailService.sendEmailToKarina(emailRequest);
     }
 
 }
