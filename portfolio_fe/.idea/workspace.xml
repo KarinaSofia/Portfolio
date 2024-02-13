@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Characteristics.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/WorkExperience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_backend/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/EmailService/EmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/PortfolioBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/PortfolioBackendApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/DataMapperLayer/TestimonialRequestMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/DataMapperLayer/TestimonialResponseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/businesslayer/TestimonialService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/businesslayer/TestimonialServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/datalayer/MongoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/datalayer/Testimonial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/datalayer/TestimonialIdentifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/datalayer/TestimonialsRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/presentationlayer/TestimonialController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/presentationlayer/TestimonialRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/presentationlayer/TestimonialResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/java/com/karina/portfolio_backend/TestimonialService/utils/DatabaseLoaderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio_backend/src/main/resources/templates/testimonial-email-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkExperience.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +68,7 @@
       <workItem from="1707201012737" duration="9890000" />
       <workItem from="1707605046932" duration="545000" />
       <workItem from="1707764623094" duration="3540000" />
-      <workItem from="1707804180637" duration="9927000" />
+      <workItem from="1707804180637" duration="9943000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Head from 'next/head';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css'; // Import the CSS
 import moonicon from '../../public/moonicon.png';
@@ -27,22 +28,37 @@ const MoonIcon = () => (
 
 const ExperiencePage = () => {
     return (
-        <div className="py-10 bg-gray-50 min-h-screen">
-            <VerticalTimeline>
-                {experience.map((exp) => (
-                    <VerticalTimelineElement
-                        key={exp.id}
-                        date={exp.date}
-                    >
-                        <h3>{exp.company}</h3>
-                        <h4>{exp.role}</h4>
-                        {exp.tasks.map((task, index) => (
-                            <p key={index}>{task}</p>
+        <>
+            <Head>
+                <title>My Experience</title>
+                <meta name="description" content="A timeline of my professional experience." />
+            </Head>
+            <div className="py-10 bg-gray-50 min-h-screen">
+                <div className="max-w-4xl mx-auto">
+                    <VerticalTimeline layout="1-column-left">
+                        {experience.map((exp) => (
+                            <VerticalTimelineElement
+                                key={exp.id}
+                                className="vertical-timeline-element--work"
+                                contentStyle={{ background: 'rgb(255, 255, 255)', color: 'rgb(0, 0, 0)' }}
+                                contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
+                                date={exp.date}
+                                iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+                                icon={<MoonIcon />}
+                            >
+                                <h3 className="font-bold text-lg">{exp.company}</h3>
+                                <h4 className="text-md mb-4">{exp.role}</h4>
+                                <ul className="list-disc ml-5">
+                                    {exp.tasks.map((task, index) => (
+                                        <li key={index}>{task}</li>
+                                    ))}
+                                </ul>
+                            </VerticalTimelineElement>
                         ))}
-                    </VerticalTimelineElement>
-                ))}
-            </VerticalTimeline>
-        </div>
+                    </VerticalTimeline>
+                </div>
+            </div>
+        </>
     );
 };
 
