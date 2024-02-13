@@ -26,7 +26,7 @@ const Home = () => {
         e.preventDefault(); // Prevent default form submission behavior
 
         try {
-            const response = await axios.post('/send-email', formData); // Adjust the URL as needed
+            const response = await axios.post('https://portfolio-ten-rose-31.vercel.app/send-email', formData); // Adjust the URL as needed
             console.log(response.data);
             // Handle success (e.g., showing a success message)
         } catch (error) {
