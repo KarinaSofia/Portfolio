@@ -33,7 +33,7 @@ const ExperiencePage = () => {
                 <title>My Experience</title>
                 <meta name="description" content="A timeline of my professional experience." />
             </Head>
-            <div className="py-10 bg-gray-50 min-h-screen">
+            <div className="py-10 min-h-screen">
                 <div className="max-w-4xl mx-auto">
                     <VerticalTimeline layout="1-column-left">
                         {experience.map((exp) => (
