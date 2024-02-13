@@ -20,6 +20,13 @@ const Home = () => {
                     <form className="space-y-4">
                         <div>
                             <input
+                                placeholder="Your Name"
+                                className="w-full p-2 border rounded-lg"
+                                required
+                            />
+                        </div>
+                        <div>
+                            <input
                                 type="email"
                                 placeholder="Your Email"
                                 className="w-full p-2 border rounded-lg"
