@@ -5,6 +5,7 @@ import Characteristics from "@/components/Characteristics";
 import Hobbies from "@/components/Hobbies";
 import ExperiencePage from "@/components/WorkExperience";
 import Future from "@/components/Future";
+import Education from "@/components/Education";
 
 const Home = () => {
     const frontEndTechnologies = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue.js", "Angular"].join(", ");
@@ -79,6 +80,15 @@ const Home = () => {
                 <hr className="w-1/3"/>
             </div>
             <ExperiencePage/>
+
+            {/* Education */}
+            <div className="flex justify-center items-center gap-5 mx-10 my-10">
+                <hr className="w-1/3"/>
+                <p className="text-center font-light text-opacity-25 italic animate-pulse flex gap-2 font-inter">Work Experience<span
+                    className="hidden md:block">Section</span></p>
+                <hr className="w-1/3"/>
+            </div>
+            <Education/>
 
             {/* Future */}
             <div className="flex justify-center items-center gap-5 mx-10 my-10">
