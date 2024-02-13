@@ -1,6 +1,9 @@
 import React from 'react';
 import NavigationBar from "@/components/navigationbar";
 import TechnologieContainer from "@/components/TechnologieContainer";
+import Characteristics from "@/components/Characteristics";
+import Hobbies from "@/components/Hobbies";
+import ExperiencePage from "@/components/WorkExperience";
 
 const Home = () => {
     const frontEndTechnologies = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue.js", "Angular"].join(", ");
@@ -31,12 +34,11 @@ const Home = () => {
 
             {/* About Me Section */}
             <div className="flex flex-col items-center gap-10">
+
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
-                    <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">Who Am I?</h2>
-                    <p className="text-center text-sm text-gray-700 font-inter">
-                        I am a 20 year old Computer Science student currently studying at Champlain College. I am a hardworking, dedicated, and passionate individual who is always eager to learn and grow. I am a quick learner and I am always open to new opportunities and experiences. I am a very creative person and I love to express my creativity through my work and my hobbies. I am always open to new opportunities and experiences and I am always looking for ways to improve and grow as a person and as a professional.
-                    </p>
+                    <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">5 Ways To Describe Me</h2>
                 </div>
+                <Characteristics/>
 
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
                     <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">What Do I Do?</h2>
@@ -46,11 +48,9 @@ const Home = () => {
                 </div>
 
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
-                    <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">Hobbies</h2>
-                    <p className="text-center text-sm text-gray-700 font-inter">
-                        I am a Computer Science student currently studying at Champlain College. I am a hardworking, dedicated, and passionate individual who is always eager to learn and grow. I am a quick learner and I am always open to new opportunities and experiences. I am a very creative person and I love to express my creativity through my work and my hobbies. I am always open to new opportunities and experiences and I am always looking for ways to improve and grow as a person and as a professional.
-                    </p>
+                    <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">My Hobbies</h2>
                 </div>
+                <Hobbies/>
             </div>
 
             {/* Programing */}
@@ -77,6 +77,7 @@ const Home = () => {
                     className="hidden md:block">Section</span></p>
                 <hr className="w-1/3"/>
             </div>
+            <ExperiencePage/>
 
             {/* Future */}
             <div className="flex justify-center items-center gap-5 mx-10 my-10">
