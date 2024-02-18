@@ -10,9 +10,10 @@ interface LeftProjectComponentProps {
     description: string;
     linkUrl: string;
     linkText?: string;
+    linkUrl2?: string;
 }
 
-const LeftProjectComponent: React.FC<LeftProjectComponentProps> = ({title, imageUrls, description, linkUrl, linkText }) => {
+const LeftProjectComponent: React.FC<LeftProjectComponentProps> = ({title, imageUrls, description, linkUrl, linkText, linkUrl2 }) => {
     const handleClick = () => {
         window.location.href = linkUrl;
     };
@@ -23,7 +24,10 @@ const LeftProjectComponent: React.FC<LeftProjectComponentProps> = ({title, image
             <div className="w-full md:w-1/2">
                 {imageUrls.map((url, index) => (
                     <div key={index} className="w-full">
-                        <Image src={url} alt={`Project Image ${index + 1}`} width={500} height={300} layout="responsive" />
+                        <Image src={url} alt={`Project Image ${index + 1}`} width={500} height={300} layout="responsive"
+                               onClick={() => window.location.href = linkUrl2 as string}
+
+                        />
                     </div>
                 ))}
             </div>

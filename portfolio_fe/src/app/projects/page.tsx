@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 import NavigationBar from "@/components/navigationbar";
 import LeftProjectComponent from "@/components/LeftProjectComponent";
@@ -17,6 +18,8 @@ const home = () => {
     const exampleLinkUrl2 = "https://github.com/cgerard321/champlain_petclinic";
     const exampleLinkText2 = "View Repository";
     const exampleTitle2 = "Pet Clinic";
+
+    const corsoLink = "https://corsoelectriqueinc.tech/";
 
     return (
         <div className="flex flex-col min-h-screen">
@@ -49,6 +52,7 @@ const home = () => {
                             description={exampleDescription}
                             linkUrl={exampleLinkUrl}
                             linkText={exampleLinkText}
+                            linkUrl2={corsoLink}
                         />
                         <LeftProjectComponent
                             // @ts-ignore
@@ -57,6 +61,7 @@ const home = () => {
                             description={exampleDescription2}
                             linkUrl={exampleLinkUrl2}
                             linkText={exampleLinkText2}
+                            linkUrl2={exampleLinkUrl2}
                         />
                         <br/>
                     </div>
