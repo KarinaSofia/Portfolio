@@ -7,7 +7,7 @@ import javax.mail.MessagingException;
 
 @RestController
 @RequestMapping("/email")
-@CrossOrigin(origins = {"http://localhost:3000", "https://portfolio-ten-rose-31.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://portfolio-ten-rose-31.vercel.app"} , allowCredentials = "true")
 public class EmailController {
     private final EmailService emailService;
 

@@ -30,12 +30,11 @@ const Home = () => {
         e.preventDefault(); // Prevent default form submission behavior
 
         try {
-            await axios.post('https://spring-boot-nn3wy.ondigitalocean.app/send-email', formData); // Adjust the URL as needed
+            await axios.post('https://spring-boot-nn3wy.ondigitalocean.app/email/send-email', formData);
             setShowSuccessMessage(true); // Show success message
-            setTimeout(() => setShowSuccessMessage(false), 3000); // Hide after 3 seconds
+            setTimeout(() => setShowSuccessMessage(false), 3000);
         } catch (error) {
             console.error(error);
-            // Optionally, handle error (e.g., showing an error message)
         }
     };
 
