@@ -2,14 +2,21 @@ import React from "react";
 import NavigationBar from "@/components/navigationbar";
 import LeftProjectComponent from "@/components/LeftProjectComponent";
 import CORSO from '../../../public/CORSO.png';
+import PetClinic from '../../../public/PetClinic.png';
 import RightProjectComponent from "@/components/RIghtProjectComponent";
 
 const home = () => {
     const exampleImageUrls = [CORSO];
-    const exampleDescription = "";
-    const exampleLinkUrl = "https://github.com/DylanBrass/Corso-Website";
-    const exampleLinkText = "View Project";
+    const exampleDescription = "Website for an electrical company that promotes electrical construction and repair services, tracks the progress of ongoing projects, and manages users and reports.";
+    const exampleLinkUrl = "https://github.com/DylanBrass/Corso-Electrique-code";
+    const exampleLinkText = "View Repository";
     const exampleTitle = "CORSO";
+
+    const exampleImageUrls2 = [PetClinic];
+    const exampleDescription2 = "This is a multi-section, multi-year project that teaches students about Scrum, version control, issue management, TDD, CI, and so much more. It is based off the the spring petclinic microservices.";
+    const exampleLinkUrl2 = "https://github.com/cgerard321/champlain_petclinic";
+    const exampleLinkText2 = "View Repository";
+    const exampleTitle2 = "Pet Clinic";
 
     return (
         <div className="flex flex-col min-h-screen">
@@ -43,15 +50,15 @@ const home = () => {
                             linkUrl={exampleLinkUrl}
                             linkText={exampleLinkText}
                         />
-                        <RightProjectComponent
+                        <LeftProjectComponent
                             // @ts-ignore
-                            imageUrls={exampleImageUrls}
-                            title={exampleTitle}
-                            description={exampleDescription}
-                            linkUrl={exampleLinkUrl}
-                            linkText={exampleLinkText}
+                            imageUrls={exampleImageUrls2}
+                            title={exampleTitle2}
+                            description={exampleDescription2}
+                            linkUrl={exampleLinkUrl2}
+                            linkText={exampleLinkText2}
                         />
-
+                        <br/>
                     </div>
                 </div>
             </div>
