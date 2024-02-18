@@ -4,6 +4,7 @@ import NavigationBar from "@/components/navigationbar";
 import Image from 'next/image';
 import img from '../../../public/contactPage.jpg';
 import axios from 'axios';
+import Swal from 'sweetalert2';
 
 const Home = () => {
     // State to store form data
@@ -25,18 +26,33 @@ const Home = () => {
         });
     };
 
-    // Handle form submission
     const handleSubmit = async (e: { preventDefault: () => void; }) => {
-        e.preventDefault(); // Prevent default form submission behavior
+        e.preventDefault();
 
         try {
             await axios.post('https://spring-boot-nn3wy.ondigitalocean.app/email/send-email', formData);
-            setShowSuccessMessage(true); // Show success message
-            setTimeout(() => setShowSuccessMessage(false), 3000);
+            Swal.fire({
+                icon: 'success',
+                title: 'Thank you!',
+                text: 'Your message has been successfully sent.',
+                confirmButtonColor: '#3085d6',
+            });
+            setFormData({
+                fullName: '',
+                email: '',
+                body: '',
+            });
         } catch (error) {
             console.error(error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong!',
+                confirmButtonColor: '#d33',
+            });
         }
     };
+
 
     return (
         <div className="flex flex-col min-h-screen">
