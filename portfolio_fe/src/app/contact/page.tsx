@@ -6,6 +6,7 @@ import img from '../../../public/contactPage.jpg';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
+
 const Home = () => {
     // State to store form data
     const [formData, setFormData] = useState({
@@ -63,7 +64,7 @@ const Home = () => {
                 </div>
                 <div className="w-full md:w-1/2 text-center p-4 md:px-8 lg:px-16">
                     <h1 className="mb-12 text-4xl font-semibold">How To Contact Me</h1>
-                    <h2 className="mb-8">Email Address: <span className="text-blue-400">Karinaevang@hotmail.com</span></h2>
+                    <h2 className="mb-8">Email Address: <span className="text-blue-400" style={{ userSelect: 'none' }}>Karinaevang@hotmail.com</span></h2>
                     <p className="mb-8">
                         Or you can contact me directly by using the following form!
                     </p>
