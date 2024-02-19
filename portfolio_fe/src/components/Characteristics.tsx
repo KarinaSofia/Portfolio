@@ -89,7 +89,7 @@ const Characteristics: React.FC = () => {
 
     // @ts-ignore
     return (
-        <div className="w-full mx-auto" style={{ maxWidth: '60%' }}>
+        <div className="w-full mx-auto sm:w-4/5">
             <Carousel
                 swipeable={true}
                 draggable={true}
@@ -104,7 +104,7 @@ const Characteristics: React.FC = () => {
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 dotListClass="custom-dot-list-style"
-                itemClass="carousel-item-padding-10-px mx-4"
+                itemClass="carousel-item-padding-10-px mx-2"
             >
 
                 {carouselItems.map((item) => (

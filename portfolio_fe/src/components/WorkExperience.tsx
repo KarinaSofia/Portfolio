@@ -7,18 +7,18 @@ import moonicon from '../../public/moonicon.png';
 
 const experience = [
     {
-        id: 2,
-        date: "06/2021 - 08/2023",
-        company: "L'intermarche",
-        role: "Server in the deli department & bakery",
-        tasks: ["Serve customers", "Prepare food", "Clean the work area"]
-    },
-    {
         id: 1,
         date: "03/2024 - 06/2024",
         company: "Mcgill University",
         role: "Tester",
         tasks: ["Test software", "Report bugs", "Work with the development team"]
+    },
+    {
+        id: 2,
+        date: "06/2021 - 08/2023",
+        company: "L'intermarche",
+        role: "Server in the deli department & bakery",
+        tasks: ["Serve customers", "Prepare food", "Clean the work area"]
     },
 ];
 
