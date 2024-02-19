@@ -84,7 +84,7 @@ const Home = () => {
             {/* Education */}
             <div className="flex justify-center items-center gap-5 mx-10 my-10">
                 <hr className="w-1/3"/>
-                <p className="text-center font-light text-opacity-25 italic animate-pulse flex gap-2 font-inter">Work Experience<span
+                <p className="text-center font-light text-opacity-25 italic animate-pulse flex gap-2 font-inter">Education<span
                     className="hidden md:block">Section</span></p>
                 <hr className="w-1/3"/>
             </div>
