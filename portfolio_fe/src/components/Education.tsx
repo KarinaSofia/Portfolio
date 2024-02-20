@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import background from '../../public/aboutMeBackground.png';
-import background2 from '../../public/aboutMeBackground2.png';
+import background from '../../public/Education1.png';
+import background2 from '../../public/Education2.png';
 
 interface CarouselItem {
     id: number;

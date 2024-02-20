@@ -88,12 +88,6 @@ const Hobbies: React.FC = () => {
             backgroundImg: img5,
         },
         {
-            id: 6,
-            title: "Adventuring",
-            // @ts-ignore
-            backgroundImg: img6,
-        },
-        {
             id: 7,
             title: "Drawing",
             // @ts-ignore
@@ -116,18 +110,6 @@ const Hobbies: React.FC = () => {
             title: "Fitness",
             // @ts-ignore
             backgroundImg: img10,
-        },
-        {
-            id: 11,
-            title: "Crying",
-            // @ts-ignore
-            backgroundImg: img11,
-        },
-        {
-            id: 12,
-            title: "Flying",
-            // @ts-ignore
-            backgroundImg: img12,
         },
         {
             id: 13,
