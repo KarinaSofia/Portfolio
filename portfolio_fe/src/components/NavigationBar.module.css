@@ -6,10 +6,12 @@
 }
 
 .navList {
-    display: inline-flex;
-    justify-content: center;
     align-items: center;
     gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .navItem {
@@ -65,4 +67,15 @@
 .logo img {
     aspect-square: 1 / 1;
     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .navList {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Align items in the center */
+    }
+
+    .navItem {
+        margin-bottom: 10px; /* Add some space between items */
+    }
 }

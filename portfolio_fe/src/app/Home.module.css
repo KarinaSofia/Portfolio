@@ -28,6 +28,10 @@
     line-height: normal;
 }
 
+.h1-for-profile-page{
+    font-size: 40px
+}
+
 
 @media (min-width: 768px) {
     .profileImage {
@@ -40,4 +44,9 @@
     }
 }
 
+@media (max-width: 768px) {
+    .profileImage {
+        display: none;
+    }
+}
 
