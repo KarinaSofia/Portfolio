@@ -97,49 +97,49 @@ const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
     const carouselItemsHobbies: CarouselItem[] = [
         {
             id: 3,
-            title: "Hanging Out With Friends",
+            title: about.title10,
             // @ts-ignore
             backgroundImg: img3,
         },
         {
             id: 4,
-            title: "Adventuring",
+            title: about.title11,
             // @ts-ignore
             backgroundImg: img4,
         },
         {
             id: 5,
-            title: "Skiing",
+            title: about.title12,
             // @ts-ignore
             backgroundImg: img5,
         },
         {
             id: 7,
-            title: "Drawing",
+            title: about.title13,
             // @ts-ignore
             backgroundImg: img7,
         },
         {
             id: 8,
-            title: "Skiing",
+            title: about.title12,
             // @ts-ignore
             backgroundImg: img8,
         },
         {
             id: 9,
-            title: "Adventuring",
+            title: about.title11,
             // @ts-ignore
             backgroundImg: img9,
         },
         {
             id: 10,
-            title: "Fitness",
+            title: about.title14,
             // @ts-ignore
             backgroundImg: img10,
         },
         {
             id: 13,
-            title: "Fitness",
+            title: about.title14,
             // @ts-ignore
             backgroundImg: img13,
         },

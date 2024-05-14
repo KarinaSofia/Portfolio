@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/dictionaries/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dictionaries/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/fr.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[lang]/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Characteristics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Characteristics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hobbies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <workItem from="1708618494722" duration="617000" />
       <workItem from="1713623156762" duration="1227000" />
       <workItem from="1715474364071" duration="6676000" />
-      <workItem from="1715619951123" duration="25716000" />
+      <workItem from="1715619951123" duration="26097000" />
     </task>
     <servers />
   </component>
