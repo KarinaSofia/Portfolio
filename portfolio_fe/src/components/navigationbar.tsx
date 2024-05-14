@@ -8,7 +8,7 @@ import {getDictionary} from "../../lib/getDictionary";
 import LocaleSwitcher from "@/components/I18n/locale-switcher";
 
 const NavigationBar = async ({lang}: { lang: Locale }) => {
-    //const {nav} = await getDictionary(lang)
+    const {nav} = await getDictionary(lang)
     return (
         <nav className={`${styles.nav} bg-gray-800 text-white p-4 flex items-center justify-between mx-auto`}>
             <div className={`${styles.logo} w-12 h-12 relative`}>
@@ -18,17 +18,17 @@ const NavigationBar = async ({lang}: { lang: Locale }) => {
                 <LocaleSwitcher/>
                 <li className={`${styles.navItem} hover:-translate-y-1 transition-transform duration-300`}>
                     <Link href={`/${lang}`}>
-                        <span className={styles.navLink}>Home</span>
+                        <span className={styles.navLink}>{nav.home}</span>
                     </Link>
                 </li>
                 <li className={`${styles.navItem} hover:-translate-y-1 transition-transform duration-300`}>
                     <Link href={`/${lang}/about`}>
-                        <span className={styles.navLink}>About</span>
+                        <span className={styles.navLink}>{nav.about}</span>
                     </Link>
                 </li>
                 <li className={`${styles.navItem} hover:-translate-y-1 transition-transform duration-300`}>
                     <Link href={`/${lang}/projects`}>
-                        <span className={styles.navLink}>Projects</span>
+                        <span className={styles.navLink}>{nav.projects}</span>
                     </Link>
                 </li>
                 {/*
@@ -42,7 +42,7 @@ const NavigationBar = async ({lang}: { lang: Locale }) => {
             <Link href={`/${lang}/contact`} passHref>
                 <button
                     className="bg-blue-400 hover:bg-blue-450 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300">
-                    Contact
+                    {nav.contact}
                 </button>
             </Link>
         </nav>

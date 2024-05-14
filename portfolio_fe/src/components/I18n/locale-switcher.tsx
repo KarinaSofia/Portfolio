@@ -31,7 +31,7 @@ export default function LocaleSwitcher() {
                     <li key={locale}>
                         <Link
                             href={redirectedPathName(locale)}
-                            className='text-black mt-auto mb-auto lg:mt-0 lg:mb-0'
+                            className='p-2 bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 w-40 rounded hover:-translate-y-1 transition-transform duration-300'
                         >
                             {locale.toLocaleUpperCase()}
                         </Link>

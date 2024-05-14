@@ -3,7 +3,7 @@
     "home": "Home",
     "projects": "Projects",
     "about": "About",
-    "education": "Education"
+    "contact": "Contact"
   },
   "intro": {
     "welcomeText": "Hello~ I'm ",
@@ -28,7 +28,9 @@
     "placeholderMessage": "Your Message",
     "btnSubmit": "Submit",
 
-    "messageSentEmail": "Success! Your message has been sent."
+    "messageSentEmail": "Success! Your message has been sent.",
+    "goToLinkedIn": "Go to LinkedIn",
+    "goToInstagram": "Go to Instagram"
   },
 
   "projects":{
@@ -50,5 +52,42 @@
     "testimoniesText": "If you have any questions or anything interesting to tell me, feel free to get in touch with me!",
     "testimoniesFullName":"Full Name",
     "testimoniesEmail": "E-mail"
-  }
+  },
+  "about": {
+    "aboutTitle": "About Me",
+    "aboutDescription": "Hello! My name is Karina Sofia Evangelista, I am a 20 year old Computer Science student currently studying at Champlain College! Feel free to explore my about me page to learn more about who I am, what I do and what makes me, me!",
+    "aboutDivider": "About Section",
+    "aboutWaysToDescribe": "5 Ways To Describe Me",
+    "aboutWhatIDo": "What Do I Do?",
+    "aboutWhatIDoDescription": "I am a Computer Science student currently studying at Champlain College. I am a hardworking, dedicated, and passionate individual who is always eager to learn and grow. I am a quick learner and I am always open to new opportunities and experiences. I am a very creative person and I love to express my creativity through my work and my hobbies. I am always open to new opportunities and experiences and I am always looking for ways to improve and grow as a person and as a professional.",
+    "hobbiesTitle": "My Hobbies",
+    "technicalSectionTitle": "Technical Section",
+    "workExperienceSectionTitle": "Work Experience Section",
+    "educationSectionTitle": "Education Section",
+    "futureGoalsSectionTitle": "Future Goals Section",
+    "programmingLanguagesTitle": "Programming Languages",
+    "frontEndTechnologiesTitle": "Front End Technologies",
+    "backEndTechnologiesTitle": "Back End Technologies",
+    "databaseTechnologiesTitle": "Database Technologies",
+    "frontEndTechnologies": "HTML, CSS, JavaScript, TypeScript, React, Vue.js, Angular",
+    "backEndTechnologies": "Node.js, Python, Java, C#, Ruby, PHP",
+    "databaseTechnologies": "MySQL, PostgreSQL, Microsoft SQL Server, MongoDB, Cassandra, Redis",
+
+    "highSchool": "Vincent Massey Collegiate",
+    "degree": "High School Degree",
+    "college": "Champlain College",
+    "degree2": "DEC in Computer Science"
+  },
+  "carouselItems1": {
+      "title": "Caring",
+      "text": "I love bringing snacks for my friends and classmates to make them happy!",
+      "title2": "Team Player",
+      "text2": "I work best in a team and enjoy collaborating with others!",
+      "title3": "Creative",
+      "text3": "I love creating new things and thinking outside the box!",
+      "title4": "Hardworking",
+      "text4": "I work hard to achieve my goals and never give up!",
+      "title5": "Sociable",
+      "text5": "I enjoy interacting with people and making new friends!"
+    }
 }
