@@ -2,18 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Image from 'next/image';
-import background from '../../public/aboutMeBackground.png';
-import background2 from '../../public/aboutMeBackground2.png';
-import background3 from '../../public/aboutMeBackground3.png';
-import background4 from '../../public/aboutMeBackground4.png';
-import background5 from '../../public/aboutMeBackground5.png';
+import Image from 'next/image'; // Importing Image from next/image
 
 interface CarouselItem {
     id: number;
     text: string;
     title: string;
     backgroundImg: string;
+}
+
+interface CharacteristicsProps {
+    carouselItems: CarouselItem[];
 }
 
 const responsive = {
@@ -35,7 +34,7 @@ const responsive = {
     }
 };
 
-const Characteristics: React.FC = () => {
+const Characteristics: React.FC<CharacteristicsProps> = ({ carouselItems }) => {
     const [isMobile, setIsMobile] = useState<boolean>(false);
 
     useEffect(() => {
@@ -49,45 +48,6 @@ const Characteristics: React.FC = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    const carouselItems: CarouselItem[] = [
-        {
-            id: 1,
-            text: "I love to bring snacks to my friends and classmates to make them happy!",
-            title: "Caring",
-            // @ts-ignore
-            backgroundImg: background,
-        },
-        {
-            id: 2,
-            text: "I work best in teams and I love collaborating with others!",
-            title: "Team Player",
-            // @ts-ignore
-            backgroundImg: background2,
-        },
-        {
-            id: 3,
-            text: "I love creating new things and thinking outside the box!",
-            title: "Creative",
-            // @ts-ignore
-            backgroundImg: background3,
-        },
-        {
-            id: 4,
-            text: "I work hard to achieve my goals and I never give up!",
-            title: "Hard Working",
-            // @ts-ignore
-            backgroundImg: background4,
-        },
-        {
-            id: 5,
-            text: "I love interacting with people and making new friends!",
-            title: "Social",
-            // @ts-ignore
-            backgroundImg: background5,
-        },
-    ];
-
-    // @ts-ignore
     return (
         <div className="w-full mx-auto sm:w-4/5">
             <Carousel
@@ -106,9 +66,8 @@ const Characteristics: React.FC = () => {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-10-px mx-2"
             >
-
                 {carouselItems.map((item) => (
-                    <div key={item.id} className=" h-96 m-4">
+                    <div key={item.id} className="relative h-96 m-4">
                         <Image
                             src={item.backgroundImg}
                             alt="Background Image"
@@ -116,7 +75,7 @@ const Characteristics: React.FC = () => {
                             objectFit="cover"
                             className="rounded-lg"
                         />
-                        <div className="absolute w-full pb-6 px-6 text-black">
+                        <div className="absolute top-0 w-full pt-6 px-6 text-black">
                             <h2 className="text-xl md:text-2xl font-semibold">{item.title}</h2>
                             <p className="text-sm md:text-base">{item.text}</p>
                         </div>

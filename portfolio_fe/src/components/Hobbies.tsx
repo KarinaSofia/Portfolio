@@ -23,6 +23,10 @@ interface CarouselItem {
     backgroundImg: string;
 }
 
+interface CharacteristicsProps {
+    carouselItems: CarouselItem[];
+}
+
 const responsive = {
     superLargeDesktop: {
         breakpoint: { max: 4000, min: 3000 },
@@ -41,8 +45,7 @@ const responsive = {
         items: 1
     }
 };
-
-const Hobbies: React.FC = () => {
+const Hobbies: React.FC<CharacteristicsProps> = ({ carouselItems }) => {
     const [isMobile, setIsMobile] = useState<boolean>(false);
 
     useEffect(() => {
@@ -55,69 +58,6 @@ const Hobbies: React.FC = () => {
 
         return () => window.removeEventListener('resize', handleResize);
     }, []);
-
-    const carouselItems: CarouselItem[] = [
-        {
-            id: 1,
-            title: "Hangout With Friends",
-            // @ts-ignore
-            backgroundImg: img1,
-        },
-        {
-            id: 2,
-            title: "Sleeping",
-            // @ts-ignore
-            backgroundImg: img2,
-        },
-        {
-            id: 3,
-            title: "Hanging Out With Friends",
-            // @ts-ignore
-            backgroundImg: img3,
-        },
-        {
-            id: 4,
-            title: "Adventuring",
-            // @ts-ignore
-            backgroundImg: img4,
-        },
-        {
-            id: 5,
-            title: "Skiing",
-            // @ts-ignore
-            backgroundImg: img5,
-        },
-        {
-            id: 7,
-            title: "Drawing",
-            // @ts-ignore
-            backgroundImg: img7,
-        },
-        {
-            id: 8,
-            title: "Skiing",
-            // @ts-ignore
-            backgroundImg: img8,
-        },
-        {
-            id: 9,
-            title: "Adventuring",
-            // @ts-ignore
-            backgroundImg: img9,
-        },
-        {
-            id: 10,
-            title: "Fitness",
-            // @ts-ignore
-            backgroundImg: img10,
-        },
-        {
-            id: 13,
-            title: "Fitness",
-            // @ts-ignore
-            backgroundImg: img13,
-        },
-    ];
 
     // @ts-ignore
     return (

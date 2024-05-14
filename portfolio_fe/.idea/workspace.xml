@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d124f92a-b43c-4060-a39e-3b1fce4f9b9b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dictionaries/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/en.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dictionaries/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/dictionaries/fr.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/[lang]/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[lang]/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Education.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Future.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/I18n/locale-switcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/I18n/locale-switcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigationbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Characteristics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Characteristics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hobbies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +87,7 @@
       <workItem from="1708618494722" duration="617000" />
       <workItem from="1713623156762" duration="1227000" />
       <workItem from="1715474364071" duration="6676000" />
-      <workItem from="1715619951123" duration="19299000" />
+      <workItem from="1715619951123" duration="25716000" />
     </task>
     <servers />
   </component>

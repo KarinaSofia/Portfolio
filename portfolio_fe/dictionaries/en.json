@@ -76,18 +76,21 @@
     "highSchool": "Vincent Massey Collegiate",
     "degree": "High School Degree",
     "college": "Champlain College",
-    "degree2": "DEC in Computer Science"
-  },
-  "carouselItems1": {
-      "title": "Caring",
-      "text": "I love bringing snacks for my friends and classmates to make them happy!",
-      "title2": "Team Player",
-      "text2": "I work best in a team and enjoy collaborating with others!",
-      "title3": "Creative",
-      "text3": "I love creating new things and thinking outside the box!",
-      "title4": "Hardworking",
-      "text4": "I work hard to achieve my goals and never give up!",
-      "title5": "Sociable",
-      "text5": "I enjoy interacting with people and making new friends!"
-    }
+    "degree2": "DEC in Computer Science",
+
+    "title": "Caring",
+    "text": "I love bringing snacks for my friends and classmates to make them happy!",
+    "title2": "Team Player",
+    "text2": "I work best in a team and enjoy collaborating with others!",
+    "title3": "Creative",
+    "text3": "I love creating new things and thinking outside the box!",
+    "title4": "Hardworking",
+    "text4": "I work hard to achieve my goals and never give up!",
+    "title5": "Sociable",
+    "text5": "I enjoy interacting with people and making new friends!",
+
+    "whereAmIHeaded": "Where Am I Headed?",
+    "whereDesc": "In the fall, i will be attending Concordia University, studying computer science. Additionally, i was accepted into the CO-OP program, which will allow me to complete internships for credit while studying at Concordia."
+
+  }
 }

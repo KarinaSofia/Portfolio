@@ -11,6 +11,21 @@ import img1 from "../../../../public/future.png";
 import background from "../../../../public/Education1.png";
 import background2 from "../../../../public/Education2.png";
 
+import background6 from "../../../../public/aboutMeBackground.png";
+import background7 from "../../../../public/aboutMeBackground2.png";
+import background3 from "../../../../public/aboutMeBackground3.png";
+import background4 from "../../../../public/aboutMeBackground4.png";
+import background5 from "../../../../public/aboutMeBackground5.png";
+import img2 from "../../../../public/img2.jpg";
+import img3 from "../../../../public/img3.jpg";
+import img4 from "../../../../public/img4.jpg";
+import img5 from "../../../../public/img5.jpg";
+import img7 from "../../../../public/img7.jpg";
+import img8 from "../../../../public/img8.jpg";
+import img9 from "../../../../public/img9.jpg";
+import img10 from "../../../../public/img10.jpg";
+import img13 from "../../../../public/img13.jpg";
+
 interface CarouselItem {
     id: number;
     text: string;
@@ -40,6 +55,96 @@ const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
         },
     ];
 
+    // @ts-ignore
+    const carouselItemsCaracteristic: CarouselItem[] = [
+        {
+            id: 1,
+            text: about.text,
+            title: about.title,
+            // @ts-ignore
+            backgroundImg: background6,
+        },
+        {
+            id: 2,
+            text: about.text2,
+            title: about.title2,
+            // @ts-ignore
+            backgroundImg: background7,
+        },
+        {
+            id: 3,
+            text: about.text3,
+            title: about.title3,
+            // @ts-ignore
+            backgroundImg: background3,
+        },
+        {
+            id: 4,
+            text: about.text4,
+            title: about.title4,
+            // @ts-ignore
+            backgroundImg: background4,
+        },
+        {
+            id: 5,
+            text: about.text5,
+            title: about.title5,
+            // @ts-ignore
+            backgroundImg: background5,
+        },
+    ];
+
+    const carouselItemsHobbies: CarouselItem[] = [
+        {
+            id: 3,
+            title: "Hanging Out With Friends",
+            // @ts-ignore
+            backgroundImg: img3,
+        },
+        {
+            id: 4,
+            title: "Adventuring",
+            // @ts-ignore
+            backgroundImg: img4,
+        },
+        {
+            id: 5,
+            title: "Skiing",
+            // @ts-ignore
+            backgroundImg: img5,
+        },
+        {
+            id: 7,
+            title: "Drawing",
+            // @ts-ignore
+            backgroundImg: img7,
+        },
+        {
+            id: 8,
+            title: "Skiing",
+            // @ts-ignore
+            backgroundImg: img8,
+        },
+        {
+            id: 9,
+            title: "Adventuring",
+            // @ts-ignore
+            backgroundImg: img9,
+        },
+        {
+            id: 10,
+            title: "Fitness",
+            // @ts-ignore
+            backgroundImg: img10,
+        },
+        {
+            id: 13,
+            title: "Fitness",
+            // @ts-ignore
+            backgroundImg: img13,
+        },
+    ];
+
     return (
         <div>
             <NavigationBar lang={lang}/>
@@ -65,7 +170,7 @@ const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
                     <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">{about.aboutWaysToDescribe}</h2>
                 </div>
-                <Characteristics/>
+                <Characteristics carouselItems={carouselItemsCaracteristic} />
 
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
                     <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">{about.aboutWhatIDo}</h2>
@@ -77,7 +182,7 @@ const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
                     <h2 className="text-center text-[30px] leading-tight italic font-bebas-neue text-stroke-black">{about.hobbiesTitle}</h2>
                 </div>
-                <Hobbies/>
+                <Hobbies carouselItems={carouselItemsHobbies}/>
             </div>
 
             {/* Programing */}
@@ -145,9 +250,8 @@ const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
             <div className="flex flex-col min-h-screen">
                 <div className="flex-grow flex flex-col md:flex-row justify-center items-center">
                     <div className="w-full md:w-1/2 text-center p-4 md:px-8 lg:px-16">
-                        <h1 className="mb-12 text-4xl font-semibold">Where Am I Headed?</h1>
-                        <p className="mb-8">
-                            I plan to continue my studies in computer science and software engineering. I am also interested in learning more about web development and design. I am currently working on a few projects that I hope to share with you soon!
+                        <h1 className="mb-12 text-4xl font-semibold">{about.whereAmIHeaded}</h1>
+                        <p className="mb-8">{about.whereDesc}
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:px-8 lg:px-16">

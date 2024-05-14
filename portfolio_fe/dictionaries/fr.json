@@ -75,19 +75,22 @@
     "highSchool": "Vincent Massey Collegiate",
     "degree": "Diplôme d'études secondaires",
     "college": "Champlain College",
-    "degree2": "DEC en informatique"
-  },
-  "carouselItems1": {
-      "title": "Attentionnée",
-      "text": "J'aime apporter des collations à mes amis et camarades de classe pour les rendre heureux!",
-      "title2": "Esprit d'équipe",
-      "text2": "Je travaille mieux en équipe et j'aime collaborer avec les autres!",
-      "title3": "Créative",
-      "text3": "J'aime créer de nouvelles choses et penser en dehors des sentiers battus!",
-      "title4": "Travailleuse",
-      "text4": "Je travaille dur pour atteindre mes objectifs et je n'abandonne jamais!",
-      "title5": "Sociable",
-      "text5": "J'aime interagir avec les gens et me faire de nouveaux amis!"
-    }
+    "degree2": "DEC en informatique",
+
+    "title": "Attentionnée",
+    "text": "J'aime apporter des collations à mes amis et camarades de classe pour les rendre heureux!",
+    "title2": "Esprit d'équipe",
+    "text2": "Je travaille mieux en équipe et j'aime collaborer avec les autres!",
+    "title3": "Créative",
+    "text3": "J'aime créer de nouvelles choses et penser en dehors des sentiers battus!",
+    "title4": "Travailleuse",
+    "text4": "Je travaille dur pour atteindre mes objectifs et je n'abandonne jamais!",
+    "title5": "Sociable",
+    "text5": "J'aime interagir avec les gens et me faire de nouveaux amis!",
+
+    "whereAmIHeaded": "Où vais-je?",
+    "whereDesc": "À l'automne, je vais fréquenter l'Université Concordia pour étudier l'informatique. De plus, j'ai été accepté dans le programme CO-OP, ce qui me permettra de compléter des stages pour obtenir des crédits tout en étudiant à Concordia."
+
+  }
 }
 
