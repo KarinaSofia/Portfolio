@@ -2,12 +2,14 @@
 import React, { useState } from "react";
 import NavigationBar from "@/components/navigationbar";
 import Image from 'next/image';
-import img from '../../../public/contactPage.jpg';
+import img from '../../../../public/contactPage.jpg';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import {Locale} from "../../../../i18n.config";
+import {getDictionary} from "../../../../lib/getDictionary";
 
 
-const Home = () => {
+const Home = async ({params: {lang},}: { params: { lang: Locale } }) => {
     // State to store form data
     const [formData, setFormData] = useState({
         fullName: '',
@@ -20,7 +22,7 @@ const Home = () => {
 
     // Handle form data change
     const handleChange = (e: { target: { name: any; value: any; }; }) => {
-        const { name, value } = e.target;
+        const {name, value} = e.target;
         setFormData({
             ...formData,
             [name]: value,
@@ -54,59 +56,62 @@ const Home = () => {
         }
     };
 
+    const {contact} = await getDictionary(lang)
+
 
     return (
         <div className="flex flex-col min-h-screen">
-            <NavigationBar />
+            <NavigationBar lang={lang}/>
             <div className="flex-grow flex flex-col md:flex-row justify-center items-center">
                 <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:px-8 lg:px-16">
-                    <Image src={img} alt="Contact Image" className="max-w-full h-auto rounded-lg shadow-lg" />
+                    <Image src={img} alt="Contact Image" className="max-w-full h-auto rounded-lg shadow-lg"/>
                 </div>
                 <div className="w-full md:w-1/2 text-center p-4 md:px-8 lg:px-16">
-                    <h1 className="mb-12 text-4xl font-semibold">How To Contact Me</h1>
-                    <h2 className="mb-8">Email Address: <span className="text-blue-400" style={{ userSelect: 'none' }}>Karinaevang@hotmail.com</span></h2>
+                    <h1 className="mb-12 text-4xl font-semibold">{contact.howToContactMe}</h1>
+                    <h2 className="mb-8">{contact.emailAddressTitle} <span className="text-blue-400"
+                                                                           style={{userSelect: 'none'}}>Karinaevang@hotmail.com</span>
+                    </h2>
                     <p className="mb-8">
-                        Or you can contact me directly by using the following form!
+                        {contact.contactDirectly}
                     </p>
                     <form className="space-y-4" onSubmit={handleSubmit}>
-                            <div>
-                                <input
-                                    name="fullName"
-                                    placeholder="Your Name"
-                                    className="w-full p-2 border rounded-lg"
-                                    required
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    placeholder="Your Email"
-                                    className="w-full p-2 border rounded-lg"
-                                    required
-                                    onChange={handleChange}
-                                />
-                            </div>
-                            <div>
+                        <div>
+                            <input
+                                name="fullName"
+                                placeholder={contact.placeholderName}
+                                className="w-full p-2 border rounded-lg"
+                                required
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder={contact.placeholderEmail}
+                                className="w-full p-2 border rounded-lg"
+                                required
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div>
                             <textarea
                                 name="body"
-                                placeholder="Your Message"
+                                placeholder={contact.placeholderMessage}
                                 className="w-full p-2 border rounded-lg"
                                 required
                                 onChange={handleChange}
                             ></textarea>
-                            </div>
+                        </div>
                         <button
                             type="submit"
-                            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300"
-                        >
-                            Submit
+                            className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded hover:-translate-y-1 transition-transform duration-300">
+                            {contact.btnSubmit}
                         </button>
                     </form>
                     {showSuccessMessage && (
                         <div className="mt-4 p-2 bg-green-100 text-green-700 rounded-lg">
-                            Success! Your message has been sent.
+                            {contact.messageSentEmail}
                         </div>
                     )}
                 </div>

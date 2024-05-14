@@ -6,16 +6,16 @@ import Hobbies from "@/components/Hobbies";
 import ExperiencePage from "@/components/WorkExperience";
 import Future from "@/components/Future";
 import Education from "@/components/Education";
+import {Locale} from "../../../../i18n.config";
 
-const Home = () => {
+const Home = ({params: {lang},}: { params: { lang: Locale } }) => {
     const frontEndTechnologies = ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Vue.js", "Angular"].join(", ");
     const backEndTechnologies = ["Node.js", "Python", "Java", "C#", "Ruby", "PHP"].join(", ");
     const databaseTechnologies = ["MySQL", "PostgreSQL", "Microsoft SQL Server", "MongoDB", "Cassandra", "Redis"].join(", ");
 
     return (
         <div>
-            <NavigationBar/>
-            {/* Header Section */}
+            <NavigationBar lang={lang}/>
             <header className="flex justify-center mt-16">
                 <div className="flex flex-col items-center gap-5 w-9/10 md:w-4/5 lg:w-3/5">
                     <h1 className="text-center text-[80px] leading-tight italic font-bebas-neue text-stroke-black">About

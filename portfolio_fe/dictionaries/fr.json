@@ -1,0 +1,52 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos",
+    "education": "Éducation"
+  },
+  "intro": {
+    "welcomeText": "Bonjour~ Je suis ",
+    "welcomeText2": "Je suis étudiant en informatique à Champlain College",
+    "downloadCv": "Télécharger CV",
+    "goToLinkedIn": "Aller sur LinkedIn"
+  },
+  "contact": {
+    "successText": "Succès",
+    "thankYou": "Merci !",
+    "messageSent": "Votre message a été envoyé avec succès.",
+    "errorText": "Erreur",
+    "errorMessage": "Oops...",
+    "messageSentError": "Quelque chose s'est mal passé !",
+
+    "howToContactMe": "Comment me contacter",
+    "emailAddressTitle": "Adresse e-mail :",
+    "contactDirectly": " Ou vous pouvez me contacter directement en utilisant le formulaire suivant !",
+
+    "placeholderName": "Votre Nom",
+    "placeholderEmail": "Votre Email",
+    "placeholderMessage": "Votre Message",
+    "btnSubmit": "Soumettre",
+
+    "messageSentEmail": "Succès ! Votre message a été envoyé."
+  },
+  "projects": {
+    "projectWelcomeText": "Bienvenue dans la section Projets de mon Portfolio ! Ici, vous trouverez une collection sélectionnée de mon travail, mettant en valeur un éventail de compétences et d'intérêts. Pour chaque projet, il y a un lien direct vers son dépôt GitHub, offrant un aperçu approfondi du code et des processus derrière mes créations. Profitez de l'exploration !",
+    "projectCorso": "Site Web pour une entreprise électrique qui promeut les services de construction et de réparation électrique, suit l'avancement des projets en cours et gère les utilisateurs et les rapports.",
+    "projectPetClinic": "Il s'agit d'un projet pluridisciplinaire et pluriannuel qui enseigne aux étudiants le Scrum, le contrôle de version, la gestion des problèmes, le TDD, le CI, et bien plus encore. Il est basé sur les microservices de la clinique vétérinaire de printemps.",
+    "viewRepo": "Voir le Dépôt",
+    "petClinicTitle": "Clinique Vétérinaire",
+    "projectTitle": "Projets",
+    "projectSectionText": "Section"
+  },
+  "testimonies": {
+    "testimoniesTitle": "Témoignages",
+    "testimoniesSingular": "Témoignage",
+    "btnSubmit": "Soumettre",
+    "leaveAText": "Laissez un",
+    "leaveATestimonial": "Laissez un Témoignage",
+    "testimoniesText": "Si vous avez des questions ou quelque chose d'intéressant à me dire, n'hésitez pas à me contacter !",
+    "testimoniesFullName": "Nom Complet",
+    "testimoniesEmail": "E-mail"
+  }
+}

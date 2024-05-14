@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "education": "Education"
+  },
+  "intro": {
+    "welcomeText": "Hello~ I'm ",
+    "welcomeText2": "I’m a computer science student studying at Champlain College",
+    "downloadCv": "Download CV",
+    "goToLinkedIn": "Go to LinkedIn"
+  },
+  "contact": {
+    "successText": "Success",
+    "thankYou": "Thank you!",
+    "messageSent": "Your message has been successfully sent.",
+    "errorText": "error",
+    "errorMessage": "Oops...",
+    "messageSentError": "Something went wrong!",
+
+    "howToContactMe":"How To Contact Me",
+    "emailAddressTitle": "Email Address:",
+    "contactDirectly": " Or you can contact me directly by using the following form!",
+
+    "placeholderName": "Your Name",
+    "placeholderEmail": "Your Email",
+    "placeholderMessage": "Your Message",
+    "btnSubmit": "Submit",
+
+    "messageSentEmail": "Success! Your message has been sent."
+  },
+
+  "projects":{
+    "projectWelcomeText":"Welcome to the Project Section of my Portfolio! Here, you'll find a curated collection of my work, showcasing a range of skills and interests. For each project, there's a direct link to its GitHub repository, offering a deeper dive into the code and processes behind my creations. Enjoy exploring!",
+    "projectCorso": "Website for an electrical company that promotes electrical construction and repair services, tracks the progress of ongoing projects, and manages users and reports.",
+    "projectPetClinic":"This is a multi-section, multi-year project that teaches students about Scrum, version control, issue management, TDD, CI, and so much more. It is based off the the spring petclinic microservices.",
+    "viewRepo": "View Repository",
+    "petClinicTitle": "Pet Clinic",
+    "projectTitle": "Projects",
+    "projectSectionText": "Section"
+  },
+
+  "testimonies": {
+    "testimoniesTitle": "Testimonials",
+    "testimoniesSingular":"Testimonial",
+    "btnSubmit": "Submit",
+    "leaveAText":"Leave A",
+    "leaveATestimonial": "Leave A Testimonial",
+    "testimoniesText": "If you have any questions or anything interesting to tell me, feel free to get in touch with me!",
+    "testimoniesFullName":"Full Name",
+    "testimoniesEmail": "E-mail"
+  }
+}
